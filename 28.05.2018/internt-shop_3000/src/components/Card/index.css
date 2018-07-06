@@ -1,0 +1,41 @@
+.wrap-card {
+    border: 3px solid green;
+    border-radius: 1.8%;
+    margin: 5px;
+    list-style: none;
+    padding: 5px;
+    flex-basis: 30%;
+}
+
+.wrap-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrap-counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-del_card {
+    float: right;
+    background-color: gray;
+    color: white;
+    border: 0px;
+}
+
+.button-del_card:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.calc {
+    background-color: coral;
+    border: 0px;
+    color: black;
+    font-size: 24px;
+}
+
+.calc:hover {
+    background-color: greenyellow;
+}
